@@ -1,0 +1,74 @@
+
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+
+{
+
+//Example of Short int
+
+  short int a=12345;
+
+  printf("%d" , a);
+
+  printf("\n");
+
+//Example of Long int 
+
+ long int b=-21224775;
+
+ printf("%ld" , b);
+
+ printf("\n");
+
+//Example of Char (Character & Character Asking Values)
+    
+  char c = 'a';
+
+    printf("%c", c);
+
+    printf("\n");
+
+//Use %d for Asking Value 
+
+ char d = 'a';
+
+ printf("%d", d);
+
+ printf("\n");
+
+//Example of Numbers Asking Value 
+
+ char e = '0';
+
+ printf("%d", e);
+
+ printf("\n");
+
+//Example of Floating Point
+    
+ float g = 3.121314;
+
+ printf("%f", g);
+
+ printf("\n");
+
+//Example of double 
+
+ double f = 2.101112131415161;
+
+ printf("%.15lf", f);
+
+ printf("\n");
+
+//Example of long double (it Can't Works in any device)
+
+ long double h = 4.101112131415161718;
+
+ printf("%.15Lf", h);
+
+
+    getch();
+    return 0;
+}
