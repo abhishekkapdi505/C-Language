@@ -5,7 +5,14 @@
 int main()
 
 {
+//Example of int
 
+  int a = 24;
+  
+  printf("%d", a);
+  
+  printf("\n");
+  
 //Example of Short int
 
   short int a=12345;
