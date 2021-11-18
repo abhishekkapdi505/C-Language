@@ -17,7 +17,7 @@ scanf("%d", &b);
 
 c = a+b;
 
-printf("your sum is %d", c);
+printf("your a+b is %d", c);
 
 getch();
 return 0;
