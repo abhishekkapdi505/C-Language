@@ -1,4 +1,4 @@
-//Welcome, This is a C Programimg Basic Function (printf) for Print on Screen.
+
 
 #include <stdio.h>
 #include <conio.h>
@@ -9,6 +9,7 @@ int main()
 
 printf ("This is a Basic C Program");
 
+getch();
 return 0;
 
 }
