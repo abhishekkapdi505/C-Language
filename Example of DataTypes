@@ -5,9 +5,13 @@
 int main()
 
 {
+///integer
+    
 //Example of int
 
-  int a = 24;
+  int a;
+  
+  a = 24;
   
   printf("%d", a);
   
@@ -15,65 +19,138 @@ int main()
   
 //Example of Short int
 
-  short int a=12345;
+  short int b;
+  
+  b=12345;
 
-  printf("%d" , a);
+  printf("%d" , b);
 
   printf("\n");
 
 //Example of Long int 
 
- long int b=-21224775;
+ long int c;
+ 
+ c=-21224775;
 
- printf("%ld" , b);
+ printf("%ld" , c);
 
  printf("\n");
+ 
+ //Example of unsigned int
+ 
+ unsigned int d;
+ 
+ d = 99999999;
+ 
+ printf("%u", d);
+ 
+ printf("\n");
+ 
+ //Example of unsigned short int
+ 
+ unsigned short int e;
+ 
+ e = 22222;
+ 
+ printf("%hu", e);
+ 
+ printf("\n");
+ 
+//Example of unsigned long int
 
-//Example of Char (Character & Character Asking Values)
+ unsigned long int f;
+ 
+ f = 99999999;
+ 
+ printf("%lu", f);
+ 
+ printf("\n");
+ 
+ 
+ ///Character 
+ 
+//Example of char (for print Character)
     
-  char c = 'a';
+  char g;
+  
+  g = 'a';
 
-    printf("%c", c);
+  printf("%c", g);
 
-    printf("\n");
-
-//Use %d for Asking Value 
-
- char d = 'a';
-
- printf("%d", d);
-
- printf("\n");
-
-//Example of Numbers Asking Value 
-
- char e = '0';
-
- printf("%d", e);
-
- printf("\n");
-
-//Example of Floating Point
+  printf("\n");
     
- float g = 3.121314;
 
- printf("%f", g);
+//Example of char (for print Character Asking Value) 
+
+ char h;
+ 
+ h = 'a';
+
+ printf("%d", h);
+
+ printf("\n");
+
+//Example of char (for print Character with Asking Value)
+
+ char i;
+ 
+ i = 96;
+
+ printf("%d", i);
+
+ printf("\n");
+
+//Example of signed char
+
+ signed char j;
+ 
+ j = 79;
+ 
+ printf("%c", j);
+ 
+ printf("\n");
+ 
+//Example of unsigned char
+
+ unsigned char k;
+ 
+ k = 78;
+ 
+ printf("%c", k);
+ 
+ printf("\n");
+ 
+ 
+///Floating Point
+ 
+//Example of float 
+    
+ float l;
+ 
+ l = 3.121314;
+
+ printf("%f", l);
 
  printf("\n");
 
 //Example of double 
 
- double f = 2.101112131415161;
+ double m;
+ 
+ m = 2.101112131415161;
 
- printf("%.15lf", f);
+ printf("%.15lf", m);
 
  printf("\n");
 
 //Example of long double (it Can't Works in any device)
 
- long double h = 4.101112131415161718;
+ long double n;
+ 
+ n = 4.101112131415161718;
 
- printf("%.15Lf", h);
+ printf("%.15Lf", n);
 
 
     getch();
