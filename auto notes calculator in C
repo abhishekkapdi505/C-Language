@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+  int amount,mod,two_thousand,five_hundred,one_hundred,two_hundred,fifty,twenty,ten,five,two,one;
+  printf("Rs:");
+  scanf("%d",&amount);
+  two_thousand=amount/2000;
+  mod=amount%2000;
+  five_hundred=mod/500;
+  mod=mod%500;
+  two_hundred=mod/200;
+  mod=mod%200;
+  one_hundred=mod/100;
+  mod=mod%100;
+  fifty=mod/50;
+  mod=mod%50;
+  twenty=mod/20;
+  mod=mod%20;
+  ten=mod/10;
+  mod=mod%10;
+  five=mod/5;
+  mod=mod%5;
+  two=mod/2;
+  mod=mod%2;
+  one=mod;
+  printf(" 2000 X %d\n 500 X %d\n 200 X %d\n 100 X %d\n 50 X %d\n 20 X %d\n 10 X %d\n 5 X %d\n 2 X %d\n 1 X %d\n " ,two_thousand,five_hundred,two_hundred,one_hundred,fifty,twenty,ten,five,two,one);
+  
+  getch();
+  return 0;
+}
