@@ -1,8 +1,9 @@
 
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 
-int main() {
+int main() 
+{
 
 int a,b,c;
 
@@ -18,7 +19,7 @@ c = a+b;
 
 printf("your sum is %d", c);
 
-
+getch();
 return 0;
 
 }
