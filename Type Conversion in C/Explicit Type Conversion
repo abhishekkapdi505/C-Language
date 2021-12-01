@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int m,f;
+    float ratio;
+    printf("Enter Total Number of Boys:::");
+    scanf("%d", &m);
+    printf("Enter Total Number of Girls:::");
+    scanf("%d", &f);
+    ratio = (float)m/f;
+    printf("%f",ratio);
+    
+    getch();
+    return 0;
+}
