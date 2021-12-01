@@ -9,6 +9,7 @@ int main()
     scanf("%f",&m);
     r = m;
     p = (m-r)*100;
+    p = p++;
     printf("%d is ruppes %d is paisa",r,p);
     
     getch();
