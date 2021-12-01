@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main() {
+
+int age;
+
+printf("Enter your age:::");
+
+scanf("%d", &age);
+
+if(age >21 && age <50){
+    
+    printf("Thank you for Registration");
+    
+}
+    else{
+        
+        printf("Sorry you are Not eligible for Registration");
+        
+}
+    
+
+getch();
+return 0;
+
+}
