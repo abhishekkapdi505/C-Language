@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+
+int a,b,temp;
+
+a = 45;
+
+b = 31;
+
+printf("Value of a:::%d", a);
+
+printf("\n");
+
+printf("Value of b:::%d", b); ///before Swap 
+
+printf("\n");
+
+temp = a;
+
+a = b;
+
+b = temp;
+
+printf("Value of a:::%d", a);
+
+printf("\n");
+
+printf("Value of b:::%d", b);  ///after Swap
+
+getch();
+return 0;
+
+}
