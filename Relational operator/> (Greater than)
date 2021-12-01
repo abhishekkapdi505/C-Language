@@ -17,6 +17,7 @@ b = 32;
 
 printf("%d", a>b); ////if a is less than b its showing 0 (False)
 
+getch();
 return 0;
 
 }
