@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    float m;
+    int r,p;
+    printf("Enter a value\n");
+    scanf("%f",&m);
+    r = m;
+    p = (m-r)*100;
+    printf("%d is ruppes %d is paisa",r,p);
+    
+    getch();
+    return 0;
+}
