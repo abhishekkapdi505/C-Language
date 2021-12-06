@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    
+    int m;
+    
+    printf("Enter Your Marks::");
+     scanf("%d", &m);
+     
+     if(m >=80 && m <=100) {
+         printf("A");
+         
+     } else if (m >=60 && m <80) {
+     
+     printf("B");
+     
+      
+     } else if (m >=40 && m <60) {
+     
+     printf("C");
+     
+     } else if (m >=33 && m <40) {
+     
+     printf("D");
+     
+     } else if (m >=33 && m <0) {
+     
+     printf("Fail");
+     
+     } else {
+     
+     printf("Enter a Valid Marks");
+}
+ 
+ getch();
+ return 0;
+ 
+ }
