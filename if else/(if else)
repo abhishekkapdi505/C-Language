@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+
+int age;
+
+printf("Enter Your Age:::");
+scanf("%d", &age);
+
+if(age >= 21) {
+
+printf("You are eligible for Votar id");
+
+} else {
+
+printf("You are Not eligible for Votar id");
+
+}
+
+return 0;
+
+}
