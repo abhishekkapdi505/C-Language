@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+
+int p,q,t,d,f;
+
+
+
+printf("Enter Price::");
+scanf("%d", &p);
+
+printf("Enter Quality::");
+scanf("%d", &q);
+
+t = p*q;
+
+if(t >= 1000) {
+
+ d = t*0.1;
+
+ f = t-d;
+
+printf("Amount to be pay:%d", f);
+
+}
+
+printf("\nTotal amount:%d", t);
+
+
+return 0;
+
+}
