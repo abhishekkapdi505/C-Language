@@ -1,0 +1,37 @@
+Q. Write a Program to sum odd numbers Entered by Users.
+Ex- 
+Enter a Number::5
+        1       3       5       7       9
+Total is::25
+
+👇🏻Code👇🏻
+
+
+#include<stdio.h>
+#include<conio.h>
+
+int main (){
+ 
+
+int i,sum,number;
+
+sum = 0;
+
+printf("Enter a Number::");
+scanf("%d", &number);
+
+
+for(i = 1; i<=number; i++) { 
+
+printf("\t%d", (2*i)-1);
+
+sum = sum + ((2*i)-1);
+
+}
+
+printf("\nTotal is::%d", sum);
+
+getch();
+return 0;
+
+}
