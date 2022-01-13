@@ -1,0 +1,45 @@
+Q. Write a Program to sum even numbers Entered by Users.
+Ex- 
+Enter a Number::5
+
+2
+4
+6
+8
+10
+Total is::30
+
+👇🏻Code👇🏻
+
+#include<stdio.h>
+#include<conio.h>
+
+int main (){
+ 
+
+int i,sum,number;
+
+sum = 0;
+
+i = 0;
+
+printf("Enter a Number::");
+scanf("%d", &number);
+
+while(i < number) {
+
+i++;
+
+
+printf("\n%d", 2*i);
+
+sum = sum + 2*i;
+
+}
+
+printf("\nTotal is::%d", sum);
+
+getch();
+return 0;
+
+}
