@@ -1,0 +1,36 @@
+Q. write a Program to Print Hello World Entred How Much time by User.
+Ex- 
+Enter How Much Time you want to Print Hello World::5
+
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+
+👇🏻Code👇🏻
+
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    
+    int i,n;
+    
+    printf("Enter How Much Time you want to Print Hello World::");
+    scanf("%d", &n);
+    
+    i = 0;
+    
+    do {
+        
+        printf("\nHello World");
+        
+        i++;
+        
+    } while (i<n);
+    
+    getch();
+    return 0;
+}
