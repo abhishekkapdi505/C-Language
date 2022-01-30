@@ -7,6 +7,7 @@ int main () {
 
  int a[20];
  int i,sum=0,size,avg;
+ clrscr();
  
  printf("Enter a Size::");
  scanf("%d", &size);
