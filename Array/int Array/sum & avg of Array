@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+#include <math.h>
+
+int main () {
+
+ int a[20];
+ int i,sum,size,avg;
+ 
+ printf("Enter a Size::");
+ scanf("%d", &size);
+
+
+
+ for(i = 0; i < size; i++) {
+ printf("Enter a Number::");
+ scanf("%d", &a[i]);
+
+ }
+
+ for(i = 0; i < size; i++) {
+ printf(" %d ", a[i]);
+}
+
+ for(i = 0; i < size; i++) {
+     sum = sum + a[i];
+ }
+ 
+  printf("\nSum is::%d", sum);
+  
+  avg = sum / size;
+  
+  printf("\navg is::%d", avg);
+
+
+ getch();
+ return 0;
+
+}
