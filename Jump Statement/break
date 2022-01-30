@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main () { 
+
+ int i,num,t1=0,t2=1,t3=0;
+
+ printf("Enter a Range::");
+ scanf("%d", &num);
+
+ printf("%d %d", t1,t2);
+ for(i = 0; i<=num; i++) {
+
+  t3 = t1+t2;
+
+  t1 = t2;
+
+  t2 = t3;
+
+ printf(" %d ", t3);
+
+ if(t1+t2>num) {
+break;
+}
+}
+
+getch();
+return 0;
+
+
+}
