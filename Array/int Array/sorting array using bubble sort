@@ -4,6 +4,7 @@
 int main () {
 
  int i,j,n,temp,arr[50];
+ clrscr();
 
  printf("Enter a Size of array::");
 scanf("%d", &n);
