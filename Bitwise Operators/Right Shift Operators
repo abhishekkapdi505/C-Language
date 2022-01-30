@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()  
+{
+     int num=212, i;
+     clrscr();
+     
+    for (i=0; i<=2; ++i) {
+        printf("Right shift by %d: %d\n", i, num>>i);
+        
+    }
+    
+    getch();
+    return 0;
+}
