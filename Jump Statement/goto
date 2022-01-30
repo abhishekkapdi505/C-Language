@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    
+    int number,square;
+    
+    repeat:
+    
+     printf("Enter a Number::");
+     scanf("%d", &number);
+     
+      if(number == 0) {
+          goto end;
+      }
+      
+      square = number * number;
+      
+      printf("%d\n", square);
+      
+       goto repeat;
+       
+        end:
+    
+    getch();
+    return 0;
+}
