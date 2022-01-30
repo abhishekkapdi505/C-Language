@@ -4,6 +4,7 @@
 int main () {
 
  int len,i,n,arr[] = {1,2,3};
+ clrscr();
  
    len = sizeof(arr)/sizeof(arr[0]);
    
