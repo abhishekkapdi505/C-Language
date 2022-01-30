@@ -7,6 +7,7 @@ int main () {
 
  int a[20];
  int i,j,large,slarge,size;
+ clrscr();
  
  printf("Enter a Size::");
  scanf("%d", &size);
