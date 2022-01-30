@@ -6,7 +6,7 @@
 int main () {
 
  int a[20];
- int i,sum,size,avg;
+ int i,sum=0,size,avg;
  
  printf("Enter a Size::");
  scanf("%d", &size);
