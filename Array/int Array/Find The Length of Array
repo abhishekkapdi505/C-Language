@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main () {
+
+ int len,i,n,arr[] = {1,2,3};
+ 
+   len = sizeof(arr)/sizeof(arr[0]);
+   
+   printf("%d", len);
+
+        
+ getch();
+ return 0;
+
+}
