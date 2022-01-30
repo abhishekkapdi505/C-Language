@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main () {
+
+ int i,j,n,arr[2][3];
+
+  for(i = 0; i < 2; i++) {
+      for(j = 0; j < 3; j++) {
+          printf("Enter a Number::");
+          scanf("%d", &arr[i][j]);
+      }
+  }
+  
+  for(i = 0; i < 2; i++) {
+      printf("\n");
+      for(j = 0; j < 3; j++) {
+          printf("\t %d ",arr[i][j]);
+      }
+  }
+  
+        
+ getch();
+ return 0;
+
+}
