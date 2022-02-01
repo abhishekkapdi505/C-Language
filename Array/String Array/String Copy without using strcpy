@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+
+int main() {
+
+ int i,len;
+char a[20],b[20];
+clrscr();
+
+ printf("Enter a String::");
+scanf("%s", a);
+
+ len = strlen(a);
+
+ for(i = 0; i < len; i++) {
+ b[i] = a[i];
+
+} 
+
+printf("%s", b);
+
+getch();
+return 0;
+
+}
