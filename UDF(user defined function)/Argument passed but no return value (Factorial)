@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <conio.h>
+
+ void factorial();
+
+ void main() {
+ 
+ int n;
+
+ printf("Enter a Number to Find Factorial::");
+ scanf("%d", &n);
+
+ factorial(n);
+
+ getch();
+
+}
+
+ void factorial(int a) {
+ 
+ int i,fact=1;
+
+  for(i = a; i > 1; i--) {
+  
+   fact = fact * i;
+
+}
+
+
+ printf("factorial of %d is %d",a,fact);
+
+ getch();
+
+}
