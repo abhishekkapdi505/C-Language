@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <conio.h>
+
+ void sum();
+
+ void main() {
+ 
+int a,b;
+
+printf("Enter a Value of a::");
+ scanf("%d", &a);
+
+ printf("Enter a Value of b::");
+ scanf("%d", &b);
+
+ sum(a,b);
+
+ printf("Sum is::%d", result);
+
+ getch();
+
+}
+
+ void sum(int a,int b) {
+ 
+int c;
+
+  c = a + b;
+  
+  printf("%d", c);
+
+ getch();
+
+}
