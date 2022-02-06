@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <conio.h>
+
+ void calculate();
+ void display();
+
+void main() {
+    
+ int i,id,marks[5];
+ 
+  printf("Enter a id::");
+  scanf("%d", &id);
+  
+  for(i = 0; i <5; i++) {
+       printf("Enter a Marks::");
+       scanf("%d", &marks[i]);
+  }
+  
+  calculate(id,marks,5);
+  
+  getch();
+  
+}
+
+ void calculate(int id,int marks[]) {
+     
+     
+     int per,i,total=0;
+      
+     for(i = 0; i <5; i++) {
+       total = total + marks[i];
+      
+  } 
+  
+      per = total / 5;
+    
+      display(id,per);
+      
+      getch();
+     
+ }
+ 
+ 
+   void display(int id,int per) {
+       
+       printf("\nStudent id::%d", id);
+       printf("\nStudent Percentage::%d",per);
+       
+       
+       getch();
+       
+   }
