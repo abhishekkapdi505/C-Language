@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <conio.h>
+
+ void sum();
+
+ void main() {
+ 
+int a,b;
+
+printf("Enter a Value of a::");
+ scanf("%d", &a);
+
+ printf("Enter a Value of b::");
+ scanf("%d", &b);
+
+ sum(&a,&b);
+
+ printf("Value of a::%d", a);
+ printf("\nValue of b::%d", b);
+
+
+ getch();
+
+}
+
+ void sum(int *p,int *q) {
+ 
+ int t;
+
+ t = *p;
+
+ *p = *q;
+
+ *q = t;
+
+ getch();
+
+
+}
