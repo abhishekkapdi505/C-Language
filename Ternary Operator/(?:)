@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+     int m = 3, n = 4;
+     clrscr();
+ 
+    (m > n) ? printf("Hii")
+            : printf("Bye");
+   
+   getch();
+   return 0;
+}
