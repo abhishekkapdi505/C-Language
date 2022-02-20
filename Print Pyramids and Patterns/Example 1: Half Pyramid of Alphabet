@@ -1,27 +1,25 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main () {
-
- int i,a[50];
-
- for(i = 0; i < 5; i++) {
- 
-   printf("Enter a 1st Number::");
-   scanf("%d", &a[i]);
-
-}
-
-printf("\n");
-
-for(i = 0; i < 5; i++) {
- 
-   printf("\n %d ",a[i]);
- 
- 
-}
-
- getch();
- return 0;
-
+int main() {
+    
+    int i,j,n;
+    char alpha = 65;
+    
+    printf("Enter a Number::");
+    scanf("%d", &n);
+    
+    for(i = 1; i<=n; i++) {
+        
+        for(j = 1; j<=i; j++) {
+            
+            printf("%c", alpha);
+        }
+        
+        alpha++;
+        printf("\n");
+    }
+    
+    getch();
+    return 0;
 }
