@@ -4,6 +4,7 @@
 int main() {
     
     int i,j,n;
+    char alpha = 65;
     
     printf("Enter a Number::");
     scanf("%d", &n);
@@ -12,9 +13,10 @@ int main() {
         
         for(j = 1; j<=i; j++) {
             
-            printf(" * ");
+            printf("%c", alpha);
         }
         
+        alpha++;
         printf("\n");
     }
     
